@@ -1,0 +1,29 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.product-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  width: 400px;
+}
